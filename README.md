@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awssome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Metadata-Configuration-API/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Metadata-Configuration-API?style=flat-square&logo=github" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Metadata-Configuration-API/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Metadata-Configuration-API?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Metadata-Configuration-API/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Metadata-Configuration-API?style=flat-square&logo=github" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Metadata-Configuration-API/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -70,9 +70,9 @@ The following hosted platforms provide robust, production-grade metadata configu
 
 ## 🚀 Open-Source GitHub Projects
 
-Explore top-rated open-source projects for declarative schema automation, GitOps infrastructure configuration, and headless metadata engines. Sorted descending by GitHub star count.
+Explore top-rated open-source projects for declarative schema automation, GitOps infrastructure configuration, and headless metadata engines. Sorted descending by GitHub Stars_Count.
 
-| 📦 Repository & Link | ⭐ GitHub Stars | 📜 License | 💡 Metadata & Configuration Capabilities |
+| 📦 Repository & Link | ⭐ GitHub_Stars | 📜 License | 💡 Metadata & Configuration Capabilities |
 | :--- | :---: | :---: | :--- |
 | **[Kubernetes](https://github.com/kubernetes/kubernetes)** | [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers) | Apache-2.0 | Standard container orchestration platform powered by Custom Resource Definitions (CRDs) and API aggregation for declarative configuration. |
 | **[Strapi](https://github.com/strapi/strapi)** | [![Stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers) | MIT | Leading open-source headless CMS with Content-Type Builder APIs for dynamic schema modeling and REST/GraphQL endpoint synthesis. |
