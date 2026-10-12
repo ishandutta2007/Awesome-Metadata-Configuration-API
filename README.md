@@ -1,6 +1,6 @@
 # Awesome-Metadata-Configuration-API
 
-# Top Metadata Configuration API Ecosystem
+## Top Metadata Configuration API Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Schema Management, Infrastructure as Code & Programmatic Resource Configuration*  
