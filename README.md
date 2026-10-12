@@ -1,144 +1,151 @@
-# Awesome-Metadata-Configuration-API
+# ⚡ Awesome Metadata Configuration API
 
-## Top Metadata Configuration API Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Metadata Configuration API Banner" width="100%">
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Schema Management, Infrastructure as Code & Programmatic Resource Configuration*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Metadata Configuration API Tools**. These tools let developers and administrators programmatically define, deploy, and manage configuration metadata — cloud resources, CRM schemas, application settings, and infrastructure — through declarative APIs and infrastructure-as-code workflows.
-
-**Examples** include Salesforce Metadata API, AWS Cloud Control API, Azure Resource Manager API, Google Cloud Resource Manager API, HashiCorp Terraform Registry, ServiceNow Table API, Okta Management API, GitHub Enterprise Admin API, Datadog Synthetics API, and Jira REST API (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom metadata schemas, and transparent configuration management — ideal for platform engineers, DevOps teams, and developers building data-sovereign infrastructure automation.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Salesforce Metadata API](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/)**  
-  Programmatic API for creating, reading, updating, and deleting Salesforce org metadata including custom objects, layouts, Apex classes, and profiles [citation:14].
-
-- **[AWS Cloud Control API](https://aws.amazon.com/cloudcontrolapi/)**  
-  Unified API for CRUD-L operations on AWS and third-party resources using standardized JSON schemas and resource type definitions [citation:2].
-
-- **[Azure Resource Manager API](https://azure.microsoft.com/en-us/features/resource-manager/)**  
-  Consistent management layer for creating, updating, and deleting Azure resources with declarative ARM templates and Bicep files [citation:3].
-
-- **[Google Cloud Resource Manager API](https://cloud.google.com/resource-manager)**  
-  Programmatic API for managing Google Cloud container resources — organizations, folders, and projects — with hierarchical access control [citation:16].
-
-- **[HashiCorp Terraform Registry](https://registry.terraform.io/)**  
-  Public registry for discovering and distributing Terraform providers and modules with a documented HTTP API for metadata retrieval [citation:5].
-
-- **[ServiceNow Table API](https://developer.servicenow.com/)**  
-  REST API for defining and managing database tables, columns, and schema metadata within ServiceNow scoped applications [citation:6].
-
-- **[Okta Management API](https://developer.okta.com/docs/api/)**  
-  Comprehensive REST API for managing users, groups, applications, policies, and identity metadata in Okta organizations [citation:19].
-
-- **[GitHub Enterprise Admin API](https://docs.github.com/en/graphql)**  
-  GraphQL API for managing enterprise accounts, organizations, repositories, and audit log metadata [citation:8].
-
-- **[Datadog Synthetics API](https://docs.datadoghq.com/api/latest/synthetics/)**  
-  API for creating and managing synthetic tests, monitors, and configuration metadata in Datadog.
-
-- **[Jira REST API](https://developer.atlassian.com/server/jira/platform/jira-rest-apis-7372883/)**  
-  REST API for managing Jira issues, projects, workflows, and configuration metadata with JSON request/response format [citation:10].
-
-## Open-Source GitHub Projects
-
-- **[Twenty CRM Metadata API](https://github.com/twentyhq/twenty)**  
-  Modern open-source CRM with auto-generated REST and GraphQL APIs for records and schema. Metadata API manages objects, fields, and relations under `/rest/metadata`, so custom data models instantly gain matching Core API endpoints [citation:11]. AGPL-3.0 licensed.
-
-- **[Terraform](https://github.com/hashicorp/terraform)**  
-  Industry-standard infrastructure as code tool with provider-based resource metadata management. Supports custom providers and registry protocol for module distribution [citation:17]. BUSL licensed.
-
-- **[OpenTofu](https://github.com/opentofu/opentofu)**  
-  Open-source fork of Terraform (MPL re-licensed) for infrastructure as code with full provider ecosystem and module registry compatibility. MPL-2.0 licensed.
-
-- **[Pulumi](https://github.com/pulumi/pulumi)**  
-  Open-source infrastructure as code using general-purpose languages with provider-based resource schemas and configuration management. Apache 2.0 licensed.
-
-- **[Crossplane](https://github.com/crossplane/crossplane)**  
-  Kubernetes-native control plane for provisioning and managing cloud infrastructure using CRDs and composition metadata. Apache 2.0 licensed.
-
-- **[Talos](https://github.com/celestiaorg/talis)**  
-  Multi-cloud infrastructure provisioning API with configuration-driven resource creation. Uses Hypervisor API for cloud instances and Ansible for system configuration [citation:12]. Apache 2.0 licensed.
-
-- **[Planton](https://github.com/plantonhq/planton)**  
-  Open-source infrastructure automation platform with Pulumi-based deployment programs for AWS, Azure, GCP, and Cloudflare resources [citation:13]. Apache 2.0 licensed.
-
-- **[Apache CloudStack](https://github.com/apache/cloudstack)**  
-  Open-source IaaS platform with API-driven resource metadata management for compute, storage, and network configuration. Apache 2.0 licensed.
-
-- **[OpenStack](https://github.com/openstack)**  
-  Open-source cloud infrastructure platform with service APIs for managing compute, storage, and networking resource metadata. Apache 2.0 licensed.
-
-- **[Kubernetes](https://github.com/kubernetes/kubernetes)**  
-  Container orchestration platform with Custom Resource Definitions (CRDs) and API aggregation for metadata-driven resource configuration. Apache 2.0 licensed.
-
-- **[Keycloak](https://github.com/keycloak/keycloak)**  
-  Open-source identity and access management with Admin REST API for managing realms, clients, users, and role metadata. Apache 2.0 licensed.
-
-- **[EspoCRM](https://github.com/espocrm/espocrm)**  
-  Open-source CRM with REST API for managing entities, fields, layouts, and custom metadata programmatically. GPL-3.0 licensed.
-
-- **[SuiteCRM](https://github.com/salesagility/SuiteCRM)**  
-  Open-source CRM with REST API v8 and V8 metadata endpoints for managing modules, fields, and relationships. AGPL-3.0 licensed.
-
-- **[Odoo](https://github.com/odoo/odoo)**  
-  Open-source ERP with XML-RPC and JSON-RPC APIs for managing models, fields, views, and configuration metadata. LGPL-3.0 licensed.
-
-- **[Directus](https://github.com/directus/directus)**  
-  Open-source data platform with REST and GraphQL APIs for managing collections, fields, and schema metadata dynamically. BSL licensed.
-
-- **[Strapi](https://github.com/strapi/strapi)**  
-  Open-source headless CMS with REST and GraphQL APIs for content-type metadata management and schema configuration. MIT licensed.
-
-- **[NocoDB](https://github.com/nocodb/nocodb)**  
-  Open-source Airtable alternative with REST API for managing tables, columns, and views metadata on SQL databases. AGPL-3.0 licensed.
-
-- **[Baserow](https://github.com/baserow/baserow)**  
-  Open-source no-code database with REST API for managing tables, fields, and views metadata programmatically. MIT licensed.
-
-### Additional Strong Open-Source Options
-
-- **[Apache Airflow](https://github.com/apache/airflow)** — Workflow orchestration with DAG metadata APIs for programmatic pipeline configuration.
-- **[Temporal](https://github.com/temporalio/temporal)** — Durable execution platform with workflow metadata and namespace configuration APIs.
-- **[Kestra](https://github.com/kestra-io/kestra)** — Declarative orchestration with YAML-based flow metadata and API-driven configuration.
-- **[ArgoCD](https://github.com/argoproj/argo-cd)** — GitOps continuous delivery with Application and AppProject metadata APIs.
-- **[Flux](https://github.com/fluxcd/flux2)** — GitOps toolkit with Kustomization and HelmRelease metadata configuration.
-- **[OPA (Open Policy Agent)](https://github.com/open-policy-agent/opa)** — Policy engine with bundle metadata APIs for configuration governance.
-- **[Kyverno](https://github.com/kyverno/kyverno)** — Kubernetes policy engine with ClusterPolicy metadata management.
-- **[Backstage](https://github.com/backstage/backstage)** — Developer portal with catalog metadata APIs for service and component configuration.
-- **Schema Registry Tools** — Confluent Schema Registry, Apicurio, and Karapace for event schema metadata management.
-- **API Gateways** — Kong, Tyk, and KrakenD for API configuration and route metadata management.
-
-**Frameworks for building custom systems**: Combine **Terraform/OpenTofu** for infrastructure metadata, **Crossplane** for Kubernetes-native resource configuration, **Twenty CRM** for schema metadata, **Keycloak** for identity metadata, and **OPA** for policy-as-code to build a complete self-hosted metadata configuration platform.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Metadata configuration APIs must comply with data protection regulations (GDPR, CCPA), industry standards (SOC 2, ISO 27001), and API security best practices.
-- Self-hosted open-source solutions require proper security hardening, credential management, and infrastructure governance.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awssome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Metadata-Configuration-API/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Metadata-Configuration-API?style=flat-square&logo=github" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Metadata-Configuration-API/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Metadata-Configuration-API?style=flat-square&logo=github" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Metadata-Configuration-API/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for platform engineers, DevOps teams, cloud architects, and developers building metadata-driven configuration platforms.**  
-Let's make metadata configuration APIs more open, declarative, and developer-friendly.
+## 📖 Introduction & Overview
+
+Welcome to the definitive, SEO-optimized curated index of **Metadata Configuration APIs**, **Declarative Schema Management Tools**, **Control Plane APIs**, and **Infrastructure as Code (IaC) Frameworks**. 
+
+Modern cloud platforms, enterprise CRMs, and distributed microservices rely on metadata-driven architectures. Rather than hardcoding infrastructure or schema state, these platforms expose programmatic REST, GraphQL, gRPC, and RPC endpoints to dynamically define, query, provision, and mutate application schemas, access policies, data models, and cloud resources.
+
+### 🎯 Key Highlights
+- ☁️ **Cloud Resource & Control Plane APIs**: Declarative infrastructure definition via unified schema protocols.
+- 🗄️ **Schema & Metadata-Driven Engines**: Automated REST/GraphQL API generation from relational and NoSQL metadata definitions.
+- ⚙️ **GitOps & Policy-as-Code Configuration**: End-to-end continuous reconciliation and governance validation.
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global market for **Cloud Configuration, Metadata Management, and Infrastructure Automation APIs** is estimated at **$18.5 Billion to $22.4 Billion**, growing at an aggressive compound annual growth rate (CAGR) of ~21%. 
+
+Market dynamics demonstrate a **moderately fragmented yet tiered bifurcation**:
+- **Hyperscale Core (Concentrated)**: The underlying infrastructure and control plane resource management tier is highly concentrated among mega-cap hyperscalers (Microsoft Azure, Amazon AWS, Google Cloud) and platform giants (Salesforce, ServiceNow, Atlassian), creating strong "winner-take-most" gravitational lock-in for enterprise ecosystems.
+- **Application & Data Schema Layer (Moderately Fragmented)**: The metadata configuration layer for headless databases, low-code/no-code platforms, API gateways, and custom internal developer portals remains vibrant and fragmented, driven by modern open-source alternatives and specialized cloud-native tools.
+
+---
+
+## 📑 Table of Contents
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#-saashosted-platforms)
+- [Open-Source GitHub Projects](#-open-source-github-projects)
+- [Architecture Patterns & Frameworks](#-architecture-patterns--frameworks)
+- [How to Contribute](#-how-to-contribute)
+- [Support & Community](#-support)
+- [Star History](#-star-history)
+- [Disclaimer & License](#-disclaimer)
+
+---
+
+## ☁️ SaaS/Hosted Platforms
+
+The following hosted platforms provide robust, production-grade metadata configuration APIs. Sorted descending by company size (market valuation / annual revenue).
+
+| 🏢 Platform | 💰 Company Valuation / Revenue | 🏷️ Specific Starting Pricing Tier | 🎁 Specific Free Tier / Trial Limits | 🔍 Metadata API Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Azure Resource Manager (ARM)](https://azure.microsoft.com/en-us/features/resource-manager/)** | **~$3.10 Trillion** (Market Cap) | Pay-as-you-go; ARM API operations & management layer are $0.00 (underlying compute billed separately, e.g. B1s VM from $7.59/mo) | Free forever account: 55+ always-free services + $200 Azure credit for 30 days | Declarative JSON/Bicep APIs for full Azure resource topology, RBAC metadata, and policy deployment. |
+| **[Google Cloud Resource Manager API](https://cloud.google.com/resource-manager)** | **~$2.15 Trillion** (Market Cap / Alphabet) | Pay-as-you-go; Resource Manager API requests are $0.00 (managed services billed e.g., e2-micro compute from $6.11/mo) | Free tier forever: 1 e2-micro VM, 30 GB storage + $300 credit over a 90-day free trial | Programmatic hierarchical control across Organizations, Folders, Projects, and IAM binding metadata. |
+| **[AWS Cloud Control API](https://aws.amazon.com/cloudcontrolapi/)** | **~$1.95 Trillion** (Market Cap / Amazon) | Pay-as-you-go; $0.00 per Cloud Control API call (standard underlying AWS resource usage charges apply) | Always Free: 1M API Gateway calls/mo, 1M Lambda reqs/mo, plus 12-month free tier (750h t2.micro/mo) | Standardized CRUD-L operations for AWS & third-party registered resources using JSON schemas. |
+| **[Salesforce Metadata API](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/)** | **~$275 Billion** (Market Cap) | Starter Suite from $25/user/month (billed annually); Enterprise edition from $165/user/month for full API access | 30-day full-featured free trial with pre-configured org access and full Developer Edition org free forever | Direct deployment and retrieval of custom objects, page layouts, Apex code, and security profiles. |
+| **[ServiceNow Table API](https://developer.servicenow.com/)** | **~$185 Billion** (Market Cap) | Starter ITSM custom packages from ~$100/user/month (enterprise contracts typically start at $10,000/year) | ServiceNow Developer Program: 1 free personal developer instance (PDI) with full administrative access | REST API for programmatic schema introspection, dynamic table/field definition, and data dictionary management. |
+| **[Atlassian Jira REST API](https://developer.atlassian.com/server/jira/platform/jira-rest-apis-7372883/)** | **~$50 Billion** (Market Cap) | Standard plan starts at $7.75/user/month (minimum 10 users, ~$77.50/month) | Free plan forever for up to 10 users with 2 GB file storage and standard community support | REST API endpoints for issue schema configuration, custom fields, issue types, and workflow automation. |
+| **[Datadog Synthetics & Config API](https://docs.datadoghq.com/api/latest/synthetics/)** | **~$40 Billion** (Market Cap) | Pro plan starts at $15/host/month; Synthetics API tests start at $5/month per 10k API test runs | 14-day full-access free trial covering unlimited hosts and synthetic monitors | API-driven creation, update, and deletion of synthetic monitors, alerting triggers, and integration configs. |
+| **[Okta Management API](https://developer.okta.com/docs/api/)** | **~$16 Billion** (Market Cap) | Workforce Identity starts at $2/user/month; Okta Customer Identity Cloud starts at $23/month | Free Developer Edition org forever: up to 7,500 monthly active users (MAUs) and 100 app integrations | REST API managing users, groups, application schema definitions, policy frameworks, and authentication profiles. |
+| **[GitHub Enterprise Admin API](https://docs.github.com/en/graphql)** | **~$7.5 Billion** (Annual Revenue / Microsoft) | GitHub Team starts at $4/user/month; GitHub Enterprise Cloud starts at $21/user/month | Free plan forever: unlimited public/private repositories with 2,000 GitHub Actions CI/CD minutes/month | GraphQL/REST APIs for organization management, identity scim, repo security policies, and environment variables. |
+| **[HashiCorp Cloud Platform (HCP)](https://registry.terraform.io/)** | **~$4.4 Billion** (Acquisition Valuation / IBM) | HCP Terraform starts at $0.00014/applied resource hour (~$0.10/hour per active managed resource) | Free plan forever: up to 500 managed resources per month with standard state management and registry access | Public/private registry API providing provider definitions, module schemas, and workspace configuration states. |
+
+---
+
+## 🚀 Open-Source GitHub Projects
+
+Explore top-rated open-source projects for declarative schema automation, GitOps infrastructure configuration, and headless metadata engines. Sorted descending by GitHub star count.
+
+| 📦 Repository & Link | ⭐ GitHub Stars | 📜 License | 💡 Metadata & Configuration Capabilities |
+| :--- | :---: | :---: | :--- |
+| **[Kubernetes](https://github.com/kubernetes/kubernetes)** | [![Stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=social&color=white)](https://github.com/kubernetes/kubernetes/stargazers) | Apache-2.0 | Standard container orchestration platform powered by Custom Resource Definitions (CRDs) and API aggregation for declarative configuration. |
+| **[Strapi](https://github.com/strapi/strapi)** | [![Stars](https://img.shields.io/github/stars/strapi/strapi?style=social&color=white)](https://github.com/strapi/strapi/stargazers) | MIT | Leading open-source headless CMS with Content-Type Builder APIs for dynamic schema modeling and REST/GraphQL endpoint synthesis. |
+| **[NocoDB](https://github.com/nocodb/nocodb)** | [![Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | AGPL-3.0 | Open-source Airtable alternative transforming any relational database into a smart spreadsheet with automated metadata REST APIs. |
+| **[Twenty CRM](https://github.com/twentyhq/twenty)** | [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers) | AGPL-3.0 | Modern CRM with dedicated `/rest/metadata` endpoints for programmatic custom object, field, and relationship definitions. |
+| **[Odoo](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 | Extensible ERP suite with XML-RPC and JSON-RPC APIs for programmatic model definitions, view configurations, and field metadata. |
+| **[Terraform](https://github.com/hashicorp/terraform)** | [![Stars](https://img.shields.io/github/stars/hashicorp/terraform?style=social&color=white)](https://github.com/hashicorp/terraform/stargazers) | BUSL-1.1 | Industry-standard declarative IaC tool with provider-based resource metadata definitions, state lock engines, and registry protocols. |
+| **[Apache Airflow](https://github.com/apache/airflow)** | [![Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | Apache-2.0 | Programmatic workflow orchestration platform with comprehensive DAG metadata APIs for pipeline registration and scheduling. |
+| **[Kong Gateway](https://github.com/Kong/kong)** | [![Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) | Apache-2.0 | Cloud-native API gateway featuring declarative Admin REST APIs and decK for route, service, consumer, and plugin metadata management. |
+| **[Directus](https://github.com/directus/directus)** | [![Stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers) | BSL-1.1 | Instant REST & GraphQL data platform dynamically generated by introspecting and mutating underlying SQL database metadata. |
+| **[Keycloak](https://github.com/keycloak/keycloak)** | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Apache-2.0 | Open-source IAM system featuring an Admin REST API for configuring realms, clients, identity providers, and role metadata. |
+| **[Backstage](https://github.com/backstage/backstage)** | [![Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers) | Apache-2.0 | Open developer portal created by Spotify, exposing Software Catalog APIs for tracking microservices, domains, and team metadata. |
+| **[OpenTofu](https://github.com/opentofu/opentofu)** | [![Stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers) | MPL-2.0 | Community-driven, truly open-source fork of Terraform for declarative infrastructure management with backwards-compatible provider APIs. |
+| **[Kestra](https://github.com/kestra-io/kestra)** | [![Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | Apache-2.0 | Declarative workflow and data orchestrator with YAML-based flow definitions and REST APIs for flow topology metadata. |
+| **[Pulumi](https://github.com/pulumi/pulumi)** | [![Stars](https://img.shields.io/github/stars/pulumi/pulumi?style=social&color=white)](https://github.com/pulumi/pulumi/stargazers) | Apache-2.0 | Modern infrastructure as code using TypeScript, Python, Go, and C# with schema-driven resource models and state APIs. |
+| **[Argo CD](https://github.com/argoproj/argo-cd)** | [![Stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers) | Apache-2.0 | Declarative GitOps continuous delivery tool for Kubernetes with Application and AppProject metadata configuration APIs. |
+| **[Temporal](https://github.com/temporalio/temporal)** | [![Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | MIT | Microservice orchestration platform with gRPC/REST APIs for workflow definition metadata and namespace configurations. |
+| **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** | [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa)](https://github.com/open-policy-agent/opa/stargazers) | Apache-2.0 | General-purpose policy engine with Policy & Data REST APIs for metadata governance across microservices, Kubernetes, and CI/CD. |
+| **[Crossplane](https://github.com/crossplane/crossplane)** | [![Stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers) | Apache-2.0 | Kubernetes-based universal control plane enabling teams to build custom self-service infrastructure APIs using XRDs and compositions. |
+| **[Flux CD](https://github.com/fluxcd/flux2)** | [![Stars](https://img.shields.io/github/stars/fluxcd/flux2?style=social&color=white)](https://github.com/fluxcd/flux2/stargazers) | Apache-2.0 | Suite of open GitOps operators for Kubernetes providing Kustomization and HelmRelease metadata configuration APIs. |
+| **[Kyverno](https://github.com/kyverno/kyverno)** | [![Stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers) | Apache-2.0 | Kubernetes native policy management engine using ClusterPolicy and Policy CRDs without requiring complex custom coding. |
+| **[Baserow](https://github.com/baserow/baserow)** | [![Stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers) | MIT | Open-source no-code relational database providing REST APIs for dynamically creating and updating tables, views, and fields. |
+| **[OpenStack](https://github.com/openstack)** | [![Stars](https://img.shields.io/github/stars/openstack/openstack?style=social&color=white)](https://github.com/openstack/openstack/stargazers) | Apache-2.0 | Ubiquitous cloud operating system orchestrating compute, storage, and networking resources via OpenStack REST service APIs. |
+| **[SuiteCRM](https://github.com/salesagility/SuiteCRM)** | [![Stars](https://img.shields.io/github/stars/salesagility/SuiteCRM?style=social&color=white)](https://github.com/salesagility/SuiteCRM/stargazers) | AGPL-3.0 | Enterprise-ready open-source CRM featuring REST API v8 for metadata-driven module and field layout administration. |
+| **[EspoCRM](https://github.com/espocrm/espocrm)** | [![Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers) | GPL-3.0 | Lightweight web application CRM platform with structured REST API endpoints for entity schema and layout customization. |
+| **[Apache CloudStack](https://github.com/apache/cloudstack)** | [![Stars](https://img.shields.io/github/stars/apache/cloudstack?style=social&color=white)](https://github.com/apache/cloudstack/stargazers) | Apache-2.0 | Highly scalable turnkey IaaS cloud platform with automated REST APIs managing compute hypervisors and storage pools. |
+| **[Confluent Schema Registry](https://github.com/confluentinc/schema-registry)** | [![Stars](https://img.shields.io/github/stars/confluentinc/schema-registry?style=social&color=white)](https://github.com/confluentinc/schema-registry/stargazers) | Confluent Community | Centralized RESTful interface for storing and retrieving Avro, JSON Schema, and Protobuf metadata for event streaming. |
+| **[Apicurio Registry](https://github.com/apicurio/apicurio-registry)** | [![Stars](https://img.shields.io/github/stars/apicurio/apicurio-registry?style=social&color=white)](https://github.com/apicurio/apicurio-registry/stargazers) | Apache-2.0 | Multi-format event schema and API design registry with full REST API support for schemas, OpenAPI, and AsyncAPI specifications. |
+| **[Planton](https://github.com/plantonhq/planton)** | [![Stars](https://img.shields.io/github/stars/plantonhq/planton?style=social&color=white)](https://github.com/plantonhq/planton/stargazers) | Apache-2.0 | Open-source cloud infrastructure automation framework with Pulumi deployment modules for multi-cloud resource orchestration. |
+
+---
+
+## 🛠️ Architecture Patterns & Frameworks
+
+Building a robust, enterprise-grade declarative metadata configuration platform? Consider combining these best-of-breed open-source building blocks:
+
+- 🧱 **Infrastructure Control Plane**: Combine **[OpenTofu](https://github.com/opentofu/opentofu)** or **[Terraform](https://github.com/hashicorp/terraform)** with **[Crossplane](https://github.com/crossplane/crossplane)** for unified infrastructure abstraction across multi-cloud providers.
+- 🗃️ **Dynamic Schema & Application Tier**: Use **[Twenty CRM](https://github.com/twentyhq/twenty)** or **[Directus](https://github.com/directus/directus)** to let business logic dictate database schemas dynamically through automated REST/GraphQL APIs.
+- 🛡️ **Identity & Security Metadata**: Integrate **[Keycloak](https://github.com/keycloak/keycloak)** for OIDC/SAML metadata and user lifecycle management.
+- 📜 **Policy as Code**: Enforce compliance across metadata changes with **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** and **[Kyverno](https://github.com/kyverno/kyverno)**.
+- 🚀 **GitOps Deployment Engine**: Reconcile metadata state continuously with **[Argo CD](https://github.com/argoproj/argo-cd)** and **[Flux CD](https://github.com/fluxcd/flux2)**.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this ecosystem up-to-date and comprehensive:
+
+1. 🍴 Fork this repository.
+2. 📝 Add or update tools in `README.md` following the tabular format and sorting criteria.
+3. 🔗 Verify that all documentation URLs, pricing facts, and repository links are accurate.
+4. 🚀 Submit a Pull Request detailing the changes made.
+
+---
+
+## 💖 Support
+
+If you find this curated metadata API guide helpful, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** with your DevOps and platform engineering teams.
+- ☕ **Buy a coffee & sponsor**: Support ongoing research and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Metadata-Configuration-API&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Metadata-Configuration-API&type=date&legend=top-left)
+
+---
+
+## 📄 Disclaimer
+
+- This list is community-maintained for informational and research purposes only.
+- Metadata configuration APIs frequently interact with mission-critical systems: ensure strict role-based access control (RBAC), auditing, and secret sanitization before exposing endpoints in production.
+- Distributed under the [MIT License](LICENSE).
